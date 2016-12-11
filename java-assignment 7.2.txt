@@ -1,0 +1,23 @@
+package myPack;
+import java.util.*;
+public class IntToString {
+	
+		   public static void main(String args[]) {
+	      String Str = new String("Welcome to Tutorialspoint.com");
+	      String Str1 = new String("Welcome");
+	      String Str2 = new String("Hey");
+	      
+	      int index = Str.indexOf(Str1);
+	      int index1= Str.indexOf(Str2);
+	      if(index!=-1){
+	    	  System.out.println("String contains substring "+ Str1 );
+	      	}
+	      else System.out.println("String contains substring "+ Str1);
+	      
+	      if(index1!=-1){
+	    	  System.out.println("String contains substring "+ Str2 );
+	      	}
+	      else System.out.println("String contains substring "+ Str2);
+	   }
+	}
+
